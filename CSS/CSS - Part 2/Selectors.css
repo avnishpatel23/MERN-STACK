@@ -1,0 +1,77 @@
+/* Universal Selector */
+
+* {
+    font-family: 'Courier New';
+}
+
+/* Element Selector */
+
+h1, h3 {
+    color: #b92b27;
+}
+
+/* Id Selector */
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+
+.upvote {
+    background-color: blanchedalmond;
+}
+
+/* Descendant Selector */
+
+.post a {
+    background-color: aquamarine;
+    color: red;
+}
+
+nav ul li a {
+   color: #b92b27 ;
+}
+
+/* Adjacent Sibling Combinator */
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+/* Child Combinator */
+
+div > input {
+    background-color: pink;
+}
+
+/* Attribute Selector */
+
+input[type = "text"] {
+    color: red;
+}
+
+input[type = "password"] {
+    color: greenyellow;
+}
+
+/* input[type] {
+    background-color: white;
+} */
+
+/* Practice Question */
+/* Set the color paragraphs inside divs with the id ""myId to green*/
+
+#myId p {
+    color: green;
+}
