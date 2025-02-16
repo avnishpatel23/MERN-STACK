@@ -1,15 +1,16 @@
-*{
-    font-family: Courier New;
+* {
+    font-family: 'Courier New';
 }
 
-h1{
-    color: #1b74e4;
+h1 {
+    color: #1877f2;
 }
 
-#searchbtn{
+.userbtn {
+    background-color: aqua;
+}
+
+#searchbtn {
     background-color: black;
     color: white;
-}
-.userbtn{
-    background-color: aqua;
 }
