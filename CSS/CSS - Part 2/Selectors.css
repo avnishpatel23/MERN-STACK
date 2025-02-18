@@ -75,3 +75,53 @@ input[type = "password"] {
 #myId p {
     color: green;
 }
+
+/* Pseudo Class - Hover */
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+/* Pseudo Class - Active */
+
+button:active {
+    color: red;
+    background-color: aliceblue;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+/* Pseudo Class - Checked */
+
+input[type="radio"]:checked+label {
+    font-weight: bold;
+    color:red;
+}
+
+/* Pseudo Class - nth-of-type */
+
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+
+/* Pseudo Element */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: chocolate;
+}
+
+p::selection{
+    background-color: rgb(200, 191, 107);
+}
