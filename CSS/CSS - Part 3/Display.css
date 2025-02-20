@@ -1,0 +1,17 @@
+span {
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 200px;
+}
+
+div {
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 200px;
+}
