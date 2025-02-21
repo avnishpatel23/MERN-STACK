@@ -1,0 +1,34 @@
+/* Percentages Units in CSS */
+
+#outer {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 10px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em;
+    padding: 1em;
+}
+
+/* Em & Rem Units In CSS */
+
+button {
+    margin-top: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+section {
+   font-size: 15px;
+}
+div {
+    font-size: 2rem;
+}
