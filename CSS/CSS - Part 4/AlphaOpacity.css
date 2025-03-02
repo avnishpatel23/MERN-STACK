@@ -1,0 +1,14 @@
+/* Alpha Channel */
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.66);
+}
+
+/* Opacity */
+
+#opacity {
+    background-color: #ffa511;
+    opacity: 0.5;
+}
