@@ -1,0 +1,9 @@
+div {
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("BackgroundImage.jpg");
+    background-size: cover;
+    color: white;
+}
