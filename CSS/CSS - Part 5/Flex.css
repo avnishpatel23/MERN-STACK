@@ -12,9 +12,11 @@
    align-content: flex-start;
 }
 
+
 h1{
     text-align: center;
 }
+
 
 #container div {
     height: 100px;
@@ -24,10 +26,12 @@ h1{
     font-size: 1.5em;
 }
 
+
 #org{
     align-self: baseline ;
     flex-shrink: 1;
 }
+
 
 #red{
     flex-grow: 1;
