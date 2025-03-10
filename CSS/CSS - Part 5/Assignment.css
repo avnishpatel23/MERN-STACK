@@ -1,4 +1,5 @@
 /* Ans 1*/
+
 #container{
     height: 400px;
     width: 400px;
@@ -13,6 +14,7 @@
 }
 
 
+
 .box{
     height: 100px;
     width: 100px;
@@ -24,6 +26,7 @@
 
 /* Ans 2 */
 
+
 #navbar{
     height: 50px;
     width: 900px;
@@ -34,6 +37,8 @@
     justify-content: flex-start;
     align-content: center;
 }
+
+
 
 
 .option{
