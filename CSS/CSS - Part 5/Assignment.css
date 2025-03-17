@@ -1,56 +1,46 @@
-/* Ans 1*/
+/* Ans 1 */
 
-#container{
+#container {
     height: 400px;
     width: 400px;
+    border: 2px solid lightseagreen;
     background-color: white;
-    border: 2px solid red;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
 }
 
-
-
-
-
-
-
-
-.box{
+.box {
     height: 100px;
     width: 100px;
-    background-color: grey;
     border: 2px solid black;
+    background-color: gray;
     font-size: 50px;
     text-align: center;
+    border-radius: 10px;
 }
 
 /* Ans 2 */
 
-
-#navbar{
+#navbar {
     height: 50px;
     width: 900px;
-    background-color: pink;
     border: 2px solid lightseagreen;
+    background-color: pink;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
     align-content: center;
+    
 }
 
-
-
-
-.option{
+.option {
     height: 50px;
     width: 80px;
+    font-size: 24px;
     border-radius: 10px;
     margin-left: 5px;
-    font-size: 24px;
     line-height: 50px;
 }
