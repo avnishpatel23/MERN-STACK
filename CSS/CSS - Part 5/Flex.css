@@ -1,41 +1,29 @@
-#container{
-    height:600px;
+#container {
+    height: 300px;
     width: 80%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
+
     display: flex;
     flex-direction: row;
-    
-    justify-content: flex-start;
-     /*flex-wrap: wrap; /*
-   /* align-items: baseline; */
-   align-content: flex-start;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-
-
 
 #container div {
     height: 100px;
-    width: 50px;
+    width: 100px;
     color: white;
     text-align: center;
     font-size: 1.5em;
-}
-
-#org{
-    align-self: baseline ;
-    flex-shrink: 1;
-}
-
-
-
-#red{
-    flex-grow: 1;
-    max-width: 50px;
-
 }
