@@ -4,7 +4,6 @@
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
-
     display: flex;
     flex-direction: row;
     /* flex-direction: column; */
