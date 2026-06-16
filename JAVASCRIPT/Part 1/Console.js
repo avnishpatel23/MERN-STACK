@@ -10,5 +10,3 @@ What is Variable?
 
        where, age --> variable
               23 --> value
-
-
