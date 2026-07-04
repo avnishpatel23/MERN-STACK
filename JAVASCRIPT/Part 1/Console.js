@@ -42,6 +42,3 @@ REPL means Read-Evaluate-Print // loop
 
    year = 2027  // Error
    year = year + 1  // Error
-
-
-
